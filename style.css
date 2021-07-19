@@ -8,9 +8,9 @@ body{
 #principal {
     background-color: #1caaad52;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    padding: 10px;
     color: rgb(128, 109, 0);
-    margin: 5px;
+    margin: 10px;
 }
 .info {
     background-color: #1caaad33;
@@ -26,6 +26,12 @@ body{
 }
 .info:hover {
     background-color: rgba(255, 255, 255, 0.226);
+}
+.data{
+    background-color: #1caaad33;
+    margin: 5px;
+    box-shadow: grey 5px;
+    float:right;
 }
 .a:hover {
     color: rgb(77, 139, 77);
