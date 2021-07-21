@@ -33,6 +33,7 @@ body{
     margin: 5px;
     box-shadow: grey 5px;
     float:right;
+    border-radius: 10px;
 }
 .a:hover {
     color: rgb(77, 139, 77);
