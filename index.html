@@ -7,7 +7,16 @@
     
     <title> Grupo Cassacos S/A </title>
 
-    <script language="javascript" src="ex1.js"> </script>
+    <script language="javascript">
+        var data_hora = new Date();
+        var hora = data_hora.getHours();
+        if (hora <12) {
+        alert("bom dia!");
+        }
+        else {
+        alert ("Boa Tarde!");
+        }
+    </script>
 
     <link rel="shortcut icon" href="favicon.ico" type="">
     <link rel="stylesheet" href="style.css">
