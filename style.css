@@ -1,11 +1,11 @@
 @charset "UTF-8";
 main{
-    margin: auto;
+    
 }
 body{
     background-image: linear-gradient( to right, #69f5fa65, #5ad2d68a);
-    margin:auto;
-}
+    margin:auto 10px;
+    }
 
 #principal {
     background-color: #1caaad52;
@@ -22,7 +22,7 @@ body{
     height: 270px;
     width: 200px;
     padding: 10px;
-    margin: 15px;
+    margin-left: 20px;
     box-shadow: black 10px;
     float:left;
 }
@@ -47,7 +47,7 @@ h2 {
     font-weight: bold;
     font-size: 0.8em;
     padding: 0.5px;
-    margin-top: 1px;
+    margin-top: 5px;
     margin: 10px;
     clear: left;
 }
