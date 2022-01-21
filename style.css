@@ -1,14 +1,14 @@
 @charset "UTF-8";
+body{
+    background-image: linear-gradient( to right, #69f5fa65, #5ad2d68a);
+    }
+
 main{
     max-width: 800;
     height: 500px;
     padding: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473);
-
 }
-body{
-    background-image: linear-gradient( to right, #69f5fa65, #5ad2d68a);
-    }
 
 #principal {
     background-color: #1caaad52;
