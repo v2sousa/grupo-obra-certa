@@ -21,7 +21,7 @@ main{
 .info:hover {
     background-color: rgba(255, 255, 255, 0.226);
 }
-.usuario{
+header .usuario{
     margin: 5px;
     box-shadow: 3px 3px 3px grey;
     float:right;
