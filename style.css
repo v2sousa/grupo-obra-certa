@@ -1,17 +1,52 @@
 @charset "UTF-8";
+
 body{
-    background-image: linear-gradient( to right, #69f5fa65, #5ad2d68a);
-    }
+    background-image: linear-gradient( to right, #b0ecee, #193f418a);
+}
+
 header{
-    margin: 5px;
-    box-shadow: 3px 3px 3px grey;
-    float:right;
-    border: 3px solid;
-    border-radius: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+    margin: 0px;
+    padding-left: 5px;
+    float: left;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    align-items: baseline;
+}
+nav ul li:hover {
+    background: #e91e63;
+}
+nav ul li {
+    color: #fff;
+    text-decoration: none;
 }
 main{
+    height: 300px;
+    margin: 0px;
     Padding: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+section{
+    margin: 0px;
+    padding: 5px;
+}
+
+.info{
+    overflow: auto;
 }
 .info {
     background-color: #1c60ad18;
@@ -19,11 +54,11 @@ main{
     color: #092727;
     text-align: justinfy;
     height: 250px;
-    width: 200px;
+    width: 300px;
     padding: 10px;
     margin: 5px;
-    box-shadow: 3px 3px 3px black;
-    float:left;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+    float: left;
 }
 .info:hover {
     background-color: rgba(255, 255, 255, 0.226);
@@ -36,14 +71,14 @@ h2 {
     text-align: center;
 }
 
-#rodape {
+.rodape {
     background-color: #2875fa41;
-    box-shadow:10px black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
     text-align: center;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 0.5px;
-    margin-top: 10px;
-    margin: 10px;
-    clear: left;
+    margin-top: 20px;
+    margin-left: 0px;
+    clear: both;
 }
