@@ -35,16 +35,18 @@ nav ul li {
 }
 main{
     height: 300px;
+    width: 100%;
     margin: 0px;
     Padding: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
+    background-image: url(imagens/image_2.jpg);
 }
 
 section{
     margin: 0px;
     padding: 5px;
+    
 }
-
 .info{
     overflow: auto;
 }
@@ -69,6 +71,7 @@ section{
 }
 h2 {
     text-align: center;
+    color: #fff;
 }
 
 .rodape {
