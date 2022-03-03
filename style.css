@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient( to right, #b0ecee, #193f418a);
+    background-color: #ccc;
 }
 
 header{
@@ -39,7 +39,7 @@ main{
     margin: 0px;
     Padding: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.473);
-    background-image: url(imagens/image_2.jpg);
+    background-color: #fff;
 }
 
 section{
