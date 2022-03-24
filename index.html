@@ -1,118 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="">
-    <link rel="stylesheet" href="style.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title> Grupo Obra Certa </title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1> Grupo Cassacos S/A. </h1>
-            </div>
-            <ul>
-                <li> HOME </li>
-                <li> CONTATO </li>
-                <li> SOBRE </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="imagem">
-            <h2> Sua obra em boas mãos! ❐ </h2>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/64/home-icon.png" alt="" class="d-inline-block align-text-top">
+                Grupo Obra Certa
+            </a>
         </div>
-    </main>
+    </nav>
+    <!-- main image -->
+    <div class="container" id="main-image-container">
+        <div class="main-image center-image"> <!-- Imagens - Centralizadas -->
+        </div>
+    </div>
+            
     <section>
-        <div class="informacoes">
-            <h2> Serviços </h2>
+        <div class="container" id="cards">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Elétrica </h5>
+                            <p class="card-text">
+                            <ul>
+                                <li class="a"> Projetos Elétricos </li> <br>
+                                <li class="a"> Instalações Elétricas</li> <br>
+                                <li class="a"> Manutenção Preventiva </li> <br>
+                            </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary"> Mais Informações</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Gesso </h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li class="a"> Projetos </li> <br>
+                                    <li class="a"> Reformas </li> <br>
+                                    <li class="a"> Sancas </li> <br>
+                                    <li class="a"> Instalação </li> <br>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary"> Mais Informações </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Reformas em Geral </h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li class="a"> Projetos </li> <br>
+                                    <li class="a"> Reformas </li> <br>
+                                    <li class="a"> Instalação de Pisos </li> <br>
+                                    <li class="a"> Instalação de Porcelenatos </li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary"> Mais Informações </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Marcenaria </h5>
+                            <p class="card-text">
+                            <ul>
+                                <li class="a"> Projetos de Quarto </li> <br>
+                                <li class="a"> Projetos de Cozinhas </li> <br>
+                                <li class="a"> Projetos de Banheiros </li> <br>
+                                <li class="a"> Áreas Gourmet </li> <br>
+                                <li class="a"> Salas / HomeTheater </li>
+                            </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary"> Mais Informações </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-            <div class="box-info-1">
-                <div class="info">
-                    <h2> Elétrica </h2>
-                    <ul>
-                        <li class="a"> Projetos Elétricos </li> <br>
-                        <li class="a"> Instalações Elétricas</li> <br>
-                        <li class="a"> Manutenção Preventiva </li> <br>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Marcenaria </h2>
-                    <ul>
-                        <li class="a"> Projetos de Quarto </li> <br>
-                        <li class="a"> Projetos de Cozinhas </li> <br>
-                        <li class="a"> Projetos de Banheiros </li> <br>
-                        <li class="a"> Áreas Gourmet </li> <br>
-                        <li class="a"> Salas / HomeTheater </li>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Reforma </h2>
-                    <ul>
-                        <li class="a"> Projetos </li> <br>
-                        <li class="a"> Reformas </li> <br>
-                        <li class="a"> Instalação de Pisos </li> <br>
-                        <li class="a"> Instalação de Porcelenatos </li>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Gesso </h2>
-                    <ul>
-                        <li class="a"> Projetos </li> <br>
-                        <li class="a"> Reformas </li> <br>
-                        <li class="a"> Instalação </li> <br>
-                    </ul>
-                </div>
-            </div>
-            <div class="box-info-2">
-                <div class="info">
-                    <h2> Elétrica </h2>
-                    <ul>
-                        <li class="a"> Projetos Elétricos </li> <br>
-                        <li class="a"> Instalações Elétricas</li> <br>
-                        <li class="a"> Manutenção Preventiva </li> <br>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Divisão de Marcenaria </h2>
-                    <ul>
-                        <li class="a"> Projetos de Quarto </li> <br>
-                        <li class="a"> Projetos de Cozinhas </li> <br>
-                        <li class="a"> Projetos de Banheiros </li> <br>
-                        <li class="a"> Áreas Gourmet </li> <br>
-                        <li class="a"> Salas / HomeTheater </li>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Divisão de Reforma </h2>
-                    <ul>
-                        <li class="a"> Projetos </li> <br>
-                        <li class="a"> Reformas </li> <br>
-                        <li class="a"> Instalação de Pisos </li> <br>
-                        <li class="a"> Instalação de Porcelenatos </li>
-                    </ul>
-                </div>
-                <div class="info">
-                    <h2> Divisão de Gesso </h2>
-                    <ul>
-                        <li class="a"> Projetos </li> <br>
-                        <li class="a"> Reformas </li> <br>
-                        <li class="a"> Instalação </li> <br>
-                    </ul>
-                </div>
-            </div>
     </section>
     <footer>
-        <div class="rodape">
-        <p> &copy; 2021 - Direitos reservados a Grupo Cassacos S/A <br> CNPJ:  <br> Endereço: </p>
+        <div class="container" id="rodape">
+            <p> &copy; 2022 - Direitos reservados a Grupo Obra Certa</p>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: #fff;
+    padding: 10px;
+}
+.navbar-brand{
+    color: #888;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px;
+}
+#cards{
+    margin: 10px;
+}
+nav ul li {
+    color: #fff;
+    text-decoration: none;
+}
+.center-image {
+    background-size: cover; /* imagem adaptada o máximo possível da Div*/
+    background-position: center; /* imagem centralizada */
+}
+.main-image{
+    height: 300px; /*ALtura da imagem*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCJ5k9jAa5e7R96aQ7B0HU0oD1hnsU26BvA&usqp=CAU); /*Banner Principal*/
+    position: relative; /*A posição do banner tem que ser relativa*/
+}
+.a:hover {
+    color: rgb(77, 139, 77);
+}
+#rodape {
+    background-color: #8888;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+    clear: both;
+}
